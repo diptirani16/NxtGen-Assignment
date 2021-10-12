@@ -27,8 +27,8 @@ class Quotes extends Component {
                                 <TextField style={{ marginTop: '3vh' }} type="text" label="Name" defaultValue="Mahfuj Riad" variant="standard" />
                                 <TextField style={{ marginTop: '5vh' }} type="password" label="Password" defaultValue="Mahfuj Riad" variant="standard" />
                                 <Button style={{ marginTop: '5vh' }} variant="contained" color="primary">Get a Quote</Button>
-                                <Typography style={{ marginTop: '3vh' }} variant="body2" gutterBottom>
-                                    Let's do great things together <b style={{ color: 'red' }}>Sign up</b>
+                                <Typography style={{ marginTop: '3vh' }} variant="caption" gutterBottom>
+                                    Let's do great things together Free <b style={{ color: 'red' }}>Sign up</b>
                                 </Typography>
                             </Paper>
                         </Grid>

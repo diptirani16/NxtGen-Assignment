@@ -3,6 +3,8 @@ import Clients from './components/Clients';
 import Quotes from './components/Quotes';
 import Projects from './components/Projects';
 import Sdot from './components/Sdot';
+import DataScience from './components/DataScience';
+import Offers from './components/Offers';
 import {
   BrowserRouter as Router,
   Switch,
@@ -29,6 +31,12 @@ function App() {
           </Route>
           <Route exact path="/sdot">
             <Sdot />
+          </Route>
+          <Route exact path="/datascience">
+            <DataScience />
+          </Route>
+          <Route exact path="/offers">
+            <Offers />
           </Route>
         </Switch>
       </Router>
