@@ -15,9 +15,10 @@ class Clients extends Component {
                         blanditiis tenetur.
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     </Typography>
-
-                    <div style={{ display: 'flex', marginTop: '5vw' }}>
-                        <Card sx={{ maxWidth: 300 }}>
+                </Container>
+                <Container maxWidth="md">
+                    <div style={{ display: 'flex', marginTop: '5vw', marginLeft: '5vw' }}>
+                        <Card sx={{ maxWidth: 350 }}>
                             <div style={{ justifyContent: "center", display: "flex" }}>
                                 <CardHeader avatar={<Avatar alt="profile" sx={{ bgcolor: 'red' }} >M</Avatar>} />
                             </div>
@@ -36,9 +37,9 @@ class Clients extends Component {
                             </CardContent>
                         </Card>
 
-                        <Card sx={{ maxWidth: 300, marginLeft: '1vw' }}>
+                        <Card sx={{ maxWidth: 350, marginLeft: '1vw' }}>
                             <div style={{ justifyContent: "center", display: "flex" }}>
-                                <CardHeader avatar={<Avatar alt="profile" sx={{ bgcolor: 'red' }} >K</Avatar>} />
+                                <CardHeader avatar={<Avatar alt="profile" sx={{ bgcolor: 'green' }} >K</Avatar>} />
                             </div>
                             <CardContent>
                                 <Typography variant="subtitle2" gutterBottom component="div">

@@ -1,6 +1,8 @@
 import HomePage from './components/HomePage';
 import Clients from './components/Clients';
 import Quotes from './components/Quotes';
+import Projects from './components/Projects';
+import Sdot from './components/Sdot';
 import {
   BrowserRouter as Router,
   Switch,
@@ -21,6 +23,12 @@ function App() {
           </Route>
           <Route exact path="/quotes">
             <Quotes />
+          </Route>
+          <Route exact path="/projects">
+            <Projects />
+          </Route>
+          <Route exact path="/sdot">
+            <Sdot />
           </Route>
         </Switch>
       </Router>

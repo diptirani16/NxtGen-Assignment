@@ -6,9 +6,9 @@ class Quotes extends Component {
         return (
             <div>
                 <Container maxWidth="lg">
-                    <Grid container spacing={6} style={{ margin: '8% 11%' }}>
-                        <Grid item lg={4}>
-                            <Typography variant="h3" style={{ fontWeight: 'bolder', letterSpacing: '2px' }} component="div" gutterBottom>
+                    <Grid container spacing={6} style={{ margin: '6% 11%' }} >
+                        <Grid item lg={4} >
+                            <Typography variant="h3" style={{ fontWeight: 'bolder', letterSpacing: '2px', marginTop: '4vh' }} component="div" gutterBottom>
                                 Get Ready to Started.
                                 It's Free & Very Easy
                             </Typography>
@@ -19,8 +19,8 @@ class Quotes extends Component {
                                 blanditiis tenetur.
                             </Typography>
                         </Grid>
-                        <Grid item lg={8}>
-                            <Paper sx={{ maxWidth: 350, padding: '6vh 2vw' }} style={{ display: 'flex', flexDirection: 'column' }}>
+                        <Grid item lg={8} >
+                            <Paper sx={{ maxWidth: 300, padding: '8vh 2vw' }} style={{ display: 'flex', flexDirection: 'column' }}>
                                 <Typography variant="h5" gutterBottom component="div">
                                     <b>Subscribe for Quote</b>
                                 </Typography>
