@@ -41,7 +41,7 @@ class Offers extends Component {
                     <Card sx={{ maxWidth: 250, ml: 2, bgcolor: "#f4e9e9" }}>
                         <CardHeader avatar={
                                 <Avatar sx={{ bgcolor: 'green' }} aria-label="recipe">
-                                    <EmojiObjects />
+                                    <PieChart />
                                 </Avatar>
                             } />
                         <CardContent>
