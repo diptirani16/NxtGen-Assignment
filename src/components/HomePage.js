@@ -1,6 +1,6 @@
 import React from 'react';
 import { Component } from 'react';
-import { Container, Box, AppBar, Toolbar, Grid, Item, List, ListItemButton, ListItemText, Typography } from '@mui/material';
+import { Container, Box, AppBar, Toolbar, Grid, List, ListItemButton, ListItemText, Typography } from '@mui/material';
 import { Check } from '@mui/icons-material'
 import logo from '../assets/logo.png';
 import image1 from '../assets/undraw_feeling_proud_qne1.svg';

@@ -5,11 +5,13 @@ import Projects from './components/Projects';
 import Sdot from './components/Sdot';
 import DataScience from './components/DataScience';
 import Offers from './components/Offers';
+import Cards from './components/Cards';
+import Grids from './components/Grids';
+
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 function App() {
@@ -37,6 +39,12 @@ function App() {
           </Route>
           <Route exact path="/offers">
             <Offers />
+          </Route>
+          <Route exact path="/cards">
+            <Cards />
+          </Route>
+          <Route exact path="/grids">
+            <Grids />
           </Route>
         </Switch>
       </Router>

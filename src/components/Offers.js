@@ -41,7 +41,7 @@ class Offers extends Component {
                     <Card sx={{ maxWidth: 250, ml: 2, bgcolor: "#f4e9e9" }}>
                         <CardHeader avatar={
                                 <Avatar sx={{ bgcolor: 'green' }} aria-label="recipe">
-                                   <PieChart />
+                                    <EmojiObjects />
                                 </Avatar>
                             } />
                         <CardContent>
@@ -49,12 +49,12 @@ class Offers extends Component {
                                 Data Analysis
                             </Typography>
                             <Typography sx={{ mt: 1 }} variant="subtitle1" gutterBottom component="div">
-                                Digital Data Consulting for Science lab
+                                Digital Data Consulting for Science Lab
                             </Typography>
-                            <CardActions>
-                                <ArrowRightAlt style={{ fontSize: "3rem" }} />
-                            </CardActions>
                         </CardContent>
+                        <CardActions>
+                            <ArrowRightAlt style={{ fontSize: "3rem" }} />
+                        </CardActions>
                     </Card>
                     <Card sx={{ maxWidth: 250, ml: 2, bgcolor: "#f4e9e9" }}>
                         <CardHeader avatar={
